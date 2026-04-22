@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Kumar | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: #e6e6e6;
+        }
+
+        header {
+            background: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ff0033;
+        }
+
+        h1 {
+            color: #ff0033;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background: #1a1a1a;
+            box-shadow: 0 0 10px rgba(255, 0, 51, 0.3);
+        }
+
+        img {
+            width: 250px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            background: #ff0033;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #cc0029;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid #444;
+        }
+
+        pre {
+            background: #000;
+            padding: 10px;
+            overflow-x: auto;
+            color: #00ffcc;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sumit Kumar</h1>
+    <p>ECE Student | Manav Rachna Institute of Research and Technology</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Hello! I am Sumit Kumar, an Electronics and Communication Engineering student. 
+    I enjoy learning new technologies, watching anime, reading books, and exploring peaceful places.</p>
+</section>
+
+<section>
+    <h2>🌸 Favorite Flower: Forget Me Not</h2>
+    <p>I love the delicate and beautiful Forget Me Not flower.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Myosotis_scorpioides_-_Forget-me-not.jpg">
+</section>
+
+<section>
+    <h2>🎬 Favorite Anime: Death Note</h2>
+    <p>The first anime I watched was Death Note, and it got me hooked!</p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg">
+</section>
+
+<section>
+    <h2>📚 Hobbies</h2>
+    <ul>
+        <li>Reading Books</li>
+        <li>Watching Anime</li>
+        <li>Exploring Nature</li>
+        <li>Coding</li>
+    </ul>
+</section>
+
+<section>
+    <h2>💻 C++ Sample Code</h2>
+    <pre>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; "Hello, I am Sumit Kumar!" &lt;&lt; endl;
+    cout &lt;&lt; "Welcome to my portfolio." &lt;&lt; endl;
+    return 0;
+}
+    </pre>
+</section>
+
+<section>
+    <h2>✨ Fun Interaction</h2>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="msg"></p>
+</section>
+
+<footer>
+    <p>© 2026 Sumit Kumar</p>
+</footer>
+
+<script>
+    function showMessage() {
+        document.getElementById("msg").innerText = 
+        "Keep learning, keep growing 🚀";
+    }
+</script>
+
+</body>
+</html>
